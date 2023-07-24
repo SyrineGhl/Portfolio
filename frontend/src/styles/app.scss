@@ -1,0 +1,19 @@
+/* src/styles/app.scss */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Ajoute tes styles globaux ici */
+  }
+  
+  /* Exemple de classe réutilisable */
+  .my-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
