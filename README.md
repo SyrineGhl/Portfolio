@@ -6,7 +6,7 @@
 - Avoir un terminal en bash.
 - Récupérer le lien du repo SSH.
 - Dans le terminal cloner le repo git git clone (mettre lien ssh) p6.
-- React est une application donc pour le creer il faut faire cette commande : `npx create-react-app my-app --template typescript`.
+- React est une application donc pour le creer il faut faire cette commande : `npx create-react-app my-app `.
 - Entrer dans le dossier `cd frontend`.
 - Lancer l'application `npm start`
 - Ouvrez un autre terminal (raccourci mac cmd + n)
@@ -19,7 +19,7 @@
 
 Pour la base de donnée :
 
-- Ce connecté sur MongoDB Atlas
+- Se connecter sur MongoDB Atlas
 - Crée un projet sur MongoDB Atlas
 - Crée une base de donnée : Database > Create
 - Crée un cluster pour définir une route pour la base de donnée :
@@ -43,49 +43,42 @@ Dans le terminal :
 # Portfolio-2.0
 Le site rassemble la base de mes compétences en tant que développeur web
 
-Création du projet 
+<h2>Création du projet </h2>
 
-Ce projet sera réaliser en MERN.js avec Typescript et Sass. Je réaliserai la partie frontend et backend
+Ce projet sera réaliser en MERN.js (MongoDB, Express.js,React.js,Node.js) et Sass. Je réaliserais la partie frontend et backend
 
 Pour la partie base de donnée avec MongoDB Atlas:
-Créer une base de donnée
-Définir un nom d'utilisateur et mot de passe pour se connecter à la base de donnée
-Sélectionner cloud pour un hébergement en ligne
-Si ce n'est pas déjà le cas ajouter un utilisateur dans Database Access avec droit de lecture et d'écriture
-Définir une adresse IP
+- Créer une base de donnée
+- Définir un nom d'utilisateur et mot de passe pour se connecter à la base de donnée
+- Sélectionner cloud pour un hébergement en ligne
+- Si ce n'est pas déjà le cas ajouter un utilisateur dans Database Access avec droit de lecture et d'écriture
+- Définir une adresse IP
 
 Pour la partie backend :
 
-Ouvrez un terminal
-Crée un dossier backend dans le dépôt mkdir backend
-Accéder au dossier backend cd backend
-Pour crée le package.json qui contiendra les dépendances faite la commande `npm init -y`
-Crée un fichier `touch tsconfig.json`
-Faite `npm install typescript ts-node --save-dev` 
-Pour la réalisation du projet en local mettez "start": "ts-node src/index.ts", dans le package.json
-Faire un .gitignore et y écrire node_module voir récupérer dans le frontend le contenu du .gitignore
-Installer les dépendances avec la commande `npm i dotenv express mongodb mongoose` et `npm install apollo-server-express
-`
-
-Avant le lancement en production, dans le fichier package.json ajouter "main": "dist/index.js", avant script et changer "start": "ts-node src/index.ts", par "start": "node dist/index.js" pour transpilé le code en js et améliorer les performances et la sécurité.
+- Ouvrez un terminal
+- Crée un dossier backend dans le dépôt `mkdir backend`
+- Accéder au dossier backend `cd backend`
+- Pour créer le package.json qui contiendra les dépendances faite la commande `npm init -y`
+- Faire un .gitignore et y écrire node_module voir récupérer dans le frontend le contenu du .gitignore
+- Installer les dépendances avec la commande `npm i dotenv express mongodb mongoose` 
+- Pour pouvoir lancer le serveur backend avec la commande `npm start`il faut ecrire dans le package.json  dans les accolades de la partie "script" il faut ajouter "start" : "nodemon index.js"
 
 Pour la partie frontend :
-Ouvrez un nouveau terminal
-Dans le dépôt utiliser la commande npx create-react-app frontend --template typescript
-Entrer dans le dossier cd frontend
-Lancer le projet avec la commande npm start
-Corriger l'erreur de création de projet lié à Babel npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
+- Ouvrez un nouveau terminal
+- Dans le dépôt utiliser la commande `npx create-react-app frontend`
+- Entrer dans le dossier `cd frontend`
+- Lancer le projet avec la commande `npm start`
 
 Récupération et lancement de l'application :
 
-Récupérer le dépôt git clone clé-ssh p8-portfolio-vincent-kbidi
-Accéder au backend cd backend
-Installer les dépendances npm i
-Lancer le serveur backend npm start
-Ouvrez un nouveau terminal
-Accéder au chemin du dossier source
-Accéder au frontend cd frontend
-Installer les dépendances npm i
-Lancer le serveur frontend npm start``
-﻿
+- Récupérer le dépôt `git clone clé-ssh nom du dossier`
+- Accéder au backend `cd backend`
+- Installer les dépendances `npm i`
+- Lancer le serveur backend `npm start`
+- Ouvrez un nouveau terminal
+- Accéder au chemin du dossier source
+- Accéder au frontend `cd frontend`
+- Installer les dépendances `npm i`
+- Lancer le serveur frontend `npm start`
