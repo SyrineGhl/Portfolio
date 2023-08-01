@@ -5,7 +5,7 @@ import maPhoto from "../assets/images/maPhoto.png";
 const Banner = () => {
   return (
     <div className="banner">
-      <img src={banner} alt="Bannière" />
+      <img className="bannerImg" src={banner} alt="Bannière" />
       <div className="overlay-photo">
         <img src={maPhoto} alt="Superposée" />
       </div>

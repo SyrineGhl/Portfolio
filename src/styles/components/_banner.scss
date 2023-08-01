@@ -1,32 +1,23 @@
-.banner img {
+.banner {
+  .bannerImg {
         position: relative;
         width: 100%;
-        height: auto;
-        background-size: cover;
         background-position: center;
         overflow: hidden; 
-        height: 390px;   
+        height: 398px;   
+        filter: brightness(50%);
   }
-  .banner::before {
-    content: "";
-    position: absolute;
-    top: 94PX;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    z-index: 1; 
 }
 .overlay-photo {
     position: absolute;
-    top: 269px;    
+    top: 276px;    
     left: 50%;
     transform: translateX(-50%);
     width: 300px; 
     height: 300px; 
     overflow: hidden; 
-    clip-path: ellipse(50% 50% at 50% 50%); 
-    z-index: 2; 
+    clip-path: ellipse(43% 50% at 50% 50%); 
+    z-index: 1; 
   }
   
   .overlay-photo img {

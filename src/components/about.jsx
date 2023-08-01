@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="about-section">
       <h2>Développeuse web</h2>
-      <h3 className="right-aligned">“Meet the Mind Behind the Code”</h3>
+      <h3 className="about-title">“Meet the Mind Behind the Code”</h3>
       <h4>Based in French Riviera</h4>
       <p>
         Je suis Syrine, une développeuse web frontend passionnée formée chez OpenClassrooms. Ma magie réside dans la

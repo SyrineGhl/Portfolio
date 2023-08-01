@@ -1,25 +1,39 @@
 .about-section {
     background-color: #F4F1E9;
-    padding: 40px;
+
     text-align: center;
     position: relative; 
   }
   
-  .about-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: left;
+  .about-section {
+    h2 {
+      font-size: 34px;
+      margin-bottom: 10px;
+      text-align: left;
+      margin-left: 70px;
+    }
+    p {
+     font-size: 18px;
+     text-align: center;
+     padding: 60px;
+     margin-left: 100px;
+     margin-right:100px;
+   }
+   
+   h4 {
+     font-size: 34px;
+     margin-bottom: 20px;
+     position: absolute; 
+     top: 0; 
+     right: 0; 
+     margin-right: 90px;
+   }
+   
   }
   
-  .about-section p {
-    font-size: 18px;
-  }
-  
-  .about-section h4 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-  }
-  
+  .about-title{
+    margin-top: 100Px;
+    font-size: 40px;
+    font-style: italic;
+    
+   }
