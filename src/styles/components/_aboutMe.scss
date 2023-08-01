@@ -36,6 +36,21 @@
   .about-title{
     margin-top: 100Px;
     font-size: 40px;
-    font-style: italic;
-    
+    font-style: italic;    
    }
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.about-section h2,
+.about-section h4 {
+  animation: slideInLeft 1s ease-in-out;
+}

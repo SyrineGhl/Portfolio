@@ -1,0 +1,30 @@
+.outils-section {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .outils-title {
+    font-family: "Playfair Display", serif;
+    font-size: 68px;
+    color: white;
+    margin-top: 20px;
+    right: 0;
+    position: absolute;
+  }
+  
+  .photos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .photo {
+    width: 20%; 
+    margin: 10px;
+  }
+  
+ 

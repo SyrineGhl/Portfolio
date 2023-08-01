@@ -1,0 +1,66 @@
+.contact-section {
+  position: relative;
+  text-align: center; 
+  h2{
+    font-family: "Playfair Display Regular", serif;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    padding: 40px;
+    margin-bottom: 40px; 
+  }
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+
+
+.form-container {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  max-width: 400px;
+  margin: 99px auto 31px;
+    margin-bottom: 67px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: white;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
