@@ -1,5 +1,7 @@
 import React from "react";
-import photoSkills from "../assets/images/photoSkills.jpg"
+import photoSkills from "../assets/images/photoSkills.jpg";
+import arrowIcon from "../assets/icon/iconFleche.png";
+
 
 const Skills = () => {
   return (
@@ -23,6 +25,10 @@ const Skills = () => {
           <li>Notions en développement back-end avec Node.js, permettant d'assurer des interactions basiques entre le front-end et le serveur.</li>
           <li>Capacité à mettre en place un modèle logique de données conforme à la réglementation, assurant une gestion efficace des informations sensibles.</li>
         </ul>
+        <div className="arrow-container">
+          <img src={arrowIcon} alt="Arrow Icon" className="arrow-icon" />
+          <span className="counter">01/03</span>
+        </div>
       </div>
     </section>
   );

@@ -11,13 +11,16 @@
       margin-bottom: 10px;
       text-align: left;
       margin-left: 70px;
+      
     }
     p {
-     font-size: 18px;
+     font-size: 20px;
      text-align: center;
      padding: 60px;
      margin-left: 100px;
      margin-right:100px;
+     font-family: "Lato", sans-serif; 
+
    }
    
    h4 {
@@ -27,6 +30,7 @@
      top: 0; 
      right: 0; 
      margin-right: 90px;
+     
    }
    
   }
@@ -35,8 +39,9 @@
   }
   .about-title{
     margin-top: 100Px;
-    font-size: 40px;
-    font-style: italic;    
+    font-size: 50px;
+    font-family: "Playfair Display Regular", serif;
+    
    }
 
 @keyframes slideInLeft {

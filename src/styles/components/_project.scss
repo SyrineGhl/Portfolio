@@ -38,13 +38,16 @@
   font-size: 48px;
   background-color: transparent;
   border: none;
-  text-decoration: underline; 
+  text-decoration: none; 
   cursor: pointer;
   position: absolute;
   margin-left: 1000px;
   margin-top: 400px;
+  transition: background-color 0.3s;
 }
-
+.voir-button:hover {
+  text-decoration: underline;
+}
 .small-image {
   position: absolute;
   top: 20px;
