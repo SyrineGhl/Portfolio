@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../assets/images/banner.png";
+import backgroundImage from "../assets/images/banner2.jpg";
 
 const ContactForm = () => {
   return (

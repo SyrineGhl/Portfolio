@@ -6,7 +6,7 @@ import projet3 from "../assets/images/KASA.png";
 const Projets = () => {
   return (
     <section className="projets-section">
-      <h1 className="projets-title">PROJETS</h1>
+      <h1 className="projets-title">MES PROJETS</h1>
       <div className="proj-container">
         <div className="proj-item1">
           <img src={projet1} alt="Projet 1" />
