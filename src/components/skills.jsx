@@ -42,7 +42,7 @@ const Skills = () => {
       <div className="center-part">
         <img
           src={slides[slideIndex].image}
-          alt="Photo"
+          alt="competence carousel"
           className="center-photo"
         />
       </div>

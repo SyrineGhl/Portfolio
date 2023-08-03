@@ -1,13 +1,13 @@
 .contact-section {
   position: relative;
   text-align: center; 
+  overflow: hidden;
   h2{
     font-family: "Playfair Display Regular", serif;
     color: white;
     font-size: 70px;
     font-weight: lighter;
-    padding: 40px;
-    margin-bottom: 40px; 
+    margin-top: 110px;
   }
 }
 
@@ -19,9 +19,12 @@
   height: 900px;
   z-index: -1;
   filter: brightness(50%);
+  transform: translateY(0);
+  transition: transform 0.2s ease;
 }
-
-
+.contact-section:hover .background-image {
+  transform: translateY(-50px);
+}
 
 .form-container {
   background-color: transparent;

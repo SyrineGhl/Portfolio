@@ -1,11 +1,15 @@
 @import"./app.scss";
-@import "./components/layout";
+@import "./components/header";
+@import"./components/footer";
 @import "./components/banner";
 @import "./components/aboutMe";
 @import"./components/project";
 @import"./components/skills";
 @import"./components/tools";
 @import"./components/nextSection";
-@import"./components/contact"
+@import"./components/contact";
+@import 'aos/dist/aos.css';
+@import"./pages/projects";
+@import"./components/sectionProject"
 
 
