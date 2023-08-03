@@ -1,66 +1,67 @@
 .skills-section {
-    display: flex;
-    height: 600px;
-  }
-  
-  .left-part {
-    flex: 3 1;
-    background-color: #606250;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    position: relative;
-  }
-  
-  .left-part h1 {
-    transform: rotate(-90deg);
-    font-family: "Playfair Display", serif;
-    font-size: 90px;
-    position: absolute;
-    top: 50%;
-    left: 50px;
-    margin: 0;
-    padding: 0;
-    transform-origin: center;
-    transform: translate(-50%, -50%) rotate(-90deg);
-  }
-  
-  .center-part {
+  display: flex;
+  height: 600px;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .center-photo {
-    width: 300px; 
-    height: 329px; 
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .right-part {
-    flex: 6;
-    background-color: #f4f1e9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+.left-part {
+  flex: 3 1;
+  background-color: #606250;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+}
+
+.left-part h1 {
+  transform: rotate(-90deg);
+  font-family: "Playfair Display", serif;
+  font-size: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  margin: 0;
+  padding: 0;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.center-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.center-photo {
+  width: 300px;
+  height: 329px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-part {
+  flex: 6;
+  background-color: #f4f1e9;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
 .right-title {
-    font-family: "Playfair Display", serif;
-    font-size: 32px;
-    position:absolute;
-    margin-bottom: 490px;
-  }
-  .skills-list {
-    list-style-type: disc; 
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  position:absolute;
+  margin-bottom: 490px;
+}
+
+.skills-list {
+  list-style-type: disc; 
     text-align: left;
     padding-left: 30px; 
     line-height: 1.6; 
@@ -70,13 +71,11 @@
     text-align: justify;
 }
 
-.arrow-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 430px;
+.arrow-container-skills {
   position: absolute;
-  margin-left: 592px;
+  right: 0;
+  margin-top: 454px;
+  margin-right: 20px;
 }
 
 .arrow-icon {
@@ -84,15 +83,17 @@
   height: 20px;
   margin-right: 10px;
   transition: transform 0.3s ease-in-out;
-
 }
+
 .arrow-icon:hover {
   transform: scale(2.2);
 }
+
 .counter {
   font-size: 16px;
   font-weight: bold;
 }
+
 .description {
   text-align: justify;
   line-height: 1.8;
@@ -101,5 +102,3 @@
   margin-left: 200px;
   margin-right: 40px;
 }
-
-

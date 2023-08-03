@@ -55,19 +55,19 @@ const Skills = () => {
             ))}
           </ul>
         </p>
-        <div className="arrow-container">
+        <div className="arrow-container-skills">
         {slideIndex > 0 && (
           <img
             src={arrowLeft}
-            alt="Left Arrow Icon"
-            className="arrow-icon left-arrow"
+            alt="Left Arrow Icon Skills"
+            className="arrow-icon left-arrow-skills"
             onClick={() => handleSlideChange(-1)}
           />
         )}
         <img
           src={arrowIcon}
-          alt="Right Arrow Icon"
-          className="arrow-icon right-arrow"
+          alt="Right Arrow Icon Skills"
+          className="arrow-icon right-arro-skills"
           onClick={() => handleSlideChange(1)}
         />
         <span className="counter">{`${slideIndex + 1}/${slides.length}`}</span>
