@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import arrowBottom from "../assets/icon/iconflecheTop.png";
 import arrowTop from "../assets/icon/iconflecheBottom.png"
 
 import SectionProject from "../components/sectionProject";
-import bookiImage from "../assets/images/booki.webp";
+import bookiImage from "../assets/images/booki.png";
 import bluelImage from "../assets/images/bluel.webp";
 import grimoireImage from "../assets/images/grimoire.webp";
 import kasaImage from "../assets/images/kasa.webp";

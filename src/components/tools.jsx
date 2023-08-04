@@ -37,7 +37,7 @@ const Outils = () => {
           <img
             key={index}
             src={image}
-            alt={`Photo ${index + 1}`}
+            alt={`container ${index + 1}`}
             className="photo"
           />
         ))}

@@ -1,87 +1,43 @@
 .projets-section {
+  background-color: #f4f1e9;
+  background-image: none;
+  border: none;
+  border-radius: inherit;
+  width: 100vw;
+  height: 357px;
+  transform: scale(1.1, 1.1) translate(0px, 0px);
+  transition-duration: 0.5s;
+  transition-property: background-color, border, transform, opacity;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.projets-section:hover {
+  background-color: rgba(231, 224, 214, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  opacity: 0.8; 
+  transform: scale(1, 1) translate(0px, 0px);
+}
+
+.proj-item h1 {
+  font-size: 99px;
+  font-family: "Playfair Display Regular", serif;
+  padding: 20px;
+  margin: 0; 
+  color: black;
+}
+
+.projets-section .proj-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: black;
-  height: 600px;
+  height: 100%;
   position: relative;
+  z-index: 1;
 }
 
-.projets-title {
-  font-family: "Playfair Display Regular", serif;
-  font-size: 85px;
-  color: white;
-  font-weight: lighter;
-  margin-top: 30px; 
-}
-
-.proj-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.proj-item {
-  width: 30%;
-  margin-bottom: 20px;
-}
-
-.proj-item img {
-  width: 100%;
-  
-}
-
-.voir-button {
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
-  background-color: transparent;
-  border: none;
+.proj-link {
   text-decoration: none; 
-  cursor: pointer;
-  position: absolute;
-  margin-left: 1000px;
-  margin-top: 400px;
-  transition: background-color 0.3s;
+  color: inherit; 
 }
-.voir-button:hover {
-  text-decoration: underline;
-}
-.small-image {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 100px; 
-}
-
-.proj-item1 {
-  img {
-    width: 30%;
-    position: absolute;
-    top: 0;
-    left:0;
-  }
-}
-.proj-item2{
-  img{
-    width: 30%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-.proj-item3 {
-
-  img {
-   
-    width: 20%;
-    position: absolute;
-    top: 0;
-    right:0;
-    
-  }
-}
-

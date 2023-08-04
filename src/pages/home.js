@@ -8,6 +8,7 @@ import NextSection from "../components/nextSection";
 import Projets from "../components/project";
 import Skills from "../components/skills";
 import Outils from "../components/tools";
+import SectionProject from "../components/sectionProject"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,7 +25,9 @@ export default function Home() {
       <Header/>
         <Banner data-aos="fade-up" />
         <About data-aos="fade-up" />
+        <SectionProject data-aos="fade-up"/>
         <Projets data-aos="fade-up" />
+        <SectionProject data-aos="fade-up"/>
         <Skills data-aos="fade-up" />
         <Outils data-aos="fade-up" />
         <NextSection data-aos="fade-up" />
