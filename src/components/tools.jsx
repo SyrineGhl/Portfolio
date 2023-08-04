@@ -46,13 +46,13 @@ const Outils = () => {
         <img
           src={arrowLeft}
           alt="Left Arrow Icon"
-          className="arrow-icon left-arrow"
+          className="arrow-icon-tools left-arrow"
           onClick={() => handleSlideChange(-1)}
         />
         <img
           src={arrowIcon}
           alt="Right Arrow Icon"
-          className="arrow-icon right-arrow"
+          className="arrow-icon-tools right-arrow"
           onClick={() => handleSlideChange(1)}
         />
       </div>
