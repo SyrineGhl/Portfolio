@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+  }
+  
+  .projets-section, .about-me-section {
+    flex: 1;
+    min-width: 0;
+    height: 357px;
+    transform: scale(1.1, 1.1) translate(0px, 0px);
+    transition-duration: 0.5s;
+    transition-property: background-color, border, transform, opacity;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .projets-container, .about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .projets-item, .about-me-item {
+    text-align: center;
+    color: black;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .projets-item h1, .about-me-item h1 {
+    font-size: 99px;
+    font-family: "Playfair Display Regular", serif;
+    padding: 20px;
+    margin: 0;
+    color: black;
+  }
+  
+  .proj-link, .about-me-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  

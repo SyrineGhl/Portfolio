@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import NextSection from "../components/nextSection";
 import Projets from "../components/project";
+import AboutMe from "../components/sectionAboutMe";
 import Skills from "../components/skills";
 import Outils from "../components/tools";
 import SectionProject from "../components/sectionProject"
@@ -26,7 +27,10 @@ export default function Home() {
         <Banner data-aos="fade-up" />
         <About data-aos="fade-up" />
         <SectionProject data-aos="fade-up"/>
+        <div style={{ display: "flex" }}>
         <Projets data-aos="fade-up" />
+        <AboutMe data-aos="fade-up"/>
+        </div>
         <SectionProject data-aos="fade-up"/>
         <Skills data-aos="fade-up" />
         <Outils data-aos="fade-up" />

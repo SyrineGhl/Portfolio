@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import projetBackground from "../assets/images/syrineP.jpg";
+import aboutMeBackground from "../assets/images/style.jpg";
 
-const Projets = () => {
+const AboutMe = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -15,23 +15,26 @@ const Projets = () => {
 
   return (
     <section
-      className="projets-section"
+      className="about-me-section"
       style={{
-        
         backgroundColor: isHovered ? "rgba(231, 224, 214, 1)" : "#f4f1e9",
-        backgroundImage: isHovered ? `url(${projetBackground})` : "none",
+        backgroundImage: isHovered ? `url(${aboutMeBackground})` : "none",
         border: isHovered ? "1px solid rgba(0, 0, 0, 1)" : "none",
-        transform:  "scale(1, 1) translate(0px, 0px)",
+        transform: "scale(1, 1) translate(0px, 0px)",
         transitionDuration: "0.5s",
         transitionProperty: "background-color, border, transform, opacity",
+        position: "relative",
+        overflow: "hidden",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Link to="/projets" className="proj-link">
-        <div className="proj-container">
-          <div className="proj-item">
-            <h1>PROJETS</h1>
+      <Link to="/a-propos" className="about-me-link">
+        <div className="about-me-container">
+          <div className="about-me-item">
+            <h1>ABOUT ME</h1>
           </div>
         </div>
       </Link>
@@ -39,4 +42,4 @@ const Projets = () => {
   );
 };
 
-export default Projets;
+export default AboutMe;
