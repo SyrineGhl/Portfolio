@@ -9,8 +9,8 @@ const About = () => {
       <p>
         Je suis Syrine, une développeuse web frontend passionnée formée chez OpenClassrooms. Ma magie réside dans la
         création d'interfaces interactives et esthétiquement captivantes en utilisant HTML, CSS, JavaScript, React et
-        Sass. J’ai quelques notions avec NodeJs, MongoDB et WordPress pour des projets complets. Mon approche agile et
-        la gestion des versions avec Git assurent une collaboration harmonieuse. Découvrez mon portfolio dédié à offrir
+        Sass. </p><p>J’ai quelques notions avec NodeJs, MongoDB et WordPress pour des projets complets. Mon approche agile et
+        la gestion des versions avec Git assurent une collaboration harmonieuse.</p> <p> Découvrez mon portfolio dédié à offrir
         des solutions sur mesure et uniques pour chaque projet.
       </p>
     </section>
