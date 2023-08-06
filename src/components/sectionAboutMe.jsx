@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import aboutMeBackground from "../assets/images/style.jpg";
+import aboutMeBackground from "../assets/images/me.jpg";
 
 const AboutMe = () => {
   const [isHovered, setIsHovered] = useState(false);

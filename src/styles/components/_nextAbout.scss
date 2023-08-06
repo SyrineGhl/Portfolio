@@ -1,0 +1,27 @@
+.intro-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f1e9;
+    padding: 80px;
+    height: 600px;
+
+  }
+  
+  .intro-image img {
+    width: 65%;
+  }
+  
+  .intro-content {
+    max-width: 50%;
+    text-align: justify;
+  }
+  
+  .intro-title {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    margin-bottom: 60px;
+  }
+  .text1{
+    line-height: 2;
+  }

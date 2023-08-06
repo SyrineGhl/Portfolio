@@ -24,7 +24,7 @@ const Header = () => {
             <a href="/a-propos">ABOUT ME</a>
           </li>
           <li>
-            <a href="/projets">CONTACT</a>
+          <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
       </nav>

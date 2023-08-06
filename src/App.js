@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import AboutMe from "./pages/aboutMe";
 import Project from "./pages/project";
+import Contact from "./pages/contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/a-propos" element={<AboutMe />} />
           <Route path="/projets" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </>
