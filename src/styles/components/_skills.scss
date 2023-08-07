@@ -120,3 +120,44 @@
 .dot-skills.active {
   background-color: #333;
 }
+
+@media (max-width: 768px) {
+  .right-title {
+    font-size: 20px;
+    margin-top: 43px;
+    text-align: center;
+  }
+
+  .center-photo {
+    width: 70vw;
+    height: 70vw; 
+    max-width: 118px;
+    max-height: 126px;
+  }
+
+  .skills-list {
+    font-size: 10px; 
+    max-width: 200px; 
+  }
+
+  .description {
+    font-size: 8px;
+    position: absolute;
+    margin-left: 90px;
+  }
+
+  .dot-skills {
+    width: 8px; 
+    height: 8px;
+    margin: 0 3px; 
+  }
+
+  .left-part h1 {
+    font-size: 35px;
+  }
+  
+  
+  .TitleSkills {
+    font-size: 20px;
+  }
+}

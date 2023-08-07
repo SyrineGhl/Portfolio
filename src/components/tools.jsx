@@ -30,10 +30,10 @@ const Outils = () => {
   };
   useEffect(() => {
     const interval = setInterval(() => {
-      handleSlideChange(1); // Changer vers le slide suivant
-    }, 1000); // Définir l'intervalle de 3000 ms (3 secondes)
+      handleSlideChange(1); 
+    }, 2000); 
 
-    // Nettoyer l'intervalle lorsque le composant est démonté
+ 
     return () => clearInterval(interval);
   }, [slideIndex]);
 

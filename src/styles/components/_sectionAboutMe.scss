@@ -32,7 +32,7 @@
   }
   
   .projets-item h1, .about-me-item h1 {
-    font-size: 99px;
+    font-size: 95px;
     font-family: "Playfair Display Regular", serif;
     padding: 20px;
     margin: 0;
@@ -44,3 +44,15 @@
     color: inherit;
   }
   
+  @media (max-width: 768px) {
+    .projets-section,
+    .about-me-section {
+      height: 200px; 
+    }
+  
+    .projets-item h1,
+    .about-me-item h1 {
+      font-size: 27px; 
+      padding: 10px;
+    }
+  }

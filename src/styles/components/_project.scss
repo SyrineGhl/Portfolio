@@ -43,3 +43,21 @@
   color: inherit;
 }
 
+
+@media (max-width: 768px) {
+  .projets-section {
+    height: 200px; 
+    padding: 20px;
+  }
+
+  .proj-item h1 {
+    font-size: 28px; 
+    text-align: center; 
+    padding: 10px;
+  }
+
+  .projets-section .proj-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}

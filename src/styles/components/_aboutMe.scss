@@ -7,7 +7,7 @@ height: 500px;
   
   .about-section {
     h2 {
-      font-size: 34px;
+      font-size: 25px;
       margin-bottom: 10px;
       text-align: left;
       margin-left: 70px;
@@ -27,12 +27,12 @@ height: 500px;
    }
    
    h4 {
-     font-size: 34px;
-     margin-bottom: 20px;
-     position: absolute; 
-     top: 0; 
-     right: 0; 
-     margin-right: 90px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 68px;
      
    }
    
@@ -61,4 +61,37 @@ height: 500px;
 .about-section h2,
 .about-section h4 {
   animation: slideInLeft 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    height: auto; 
+    padding: 30px; 
+  }
+
+  .about-section h2 {
+    position: absolute;
+    right: 285px;
+    font-size: 11px;
+    margin-top: 17px;
+
+  }
+
+  .about-section p {
+    font-size: 18px; 
+    text-align: center; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+  }
+
+  .about-section h4 {
+    font-size: 11px;
+    margin-right: 6px;
+    margin-top: 48px;
+  }
+
+  .about-title {
+    font-size: 36px; 
+    text-align: center; 
+  }
 }

@@ -35,7 +35,7 @@ export default function Home() {
         <Skills data-aos="fade-up" />
         <Outils data-aos="fade-up" />
         <NextSection data-aos="fade-up" />
-        <ContactForm data-aos="fade-up" />
+        
       <Footer/>
     </>
   );

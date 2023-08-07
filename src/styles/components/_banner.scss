@@ -32,3 +32,17 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+@media (max-width: 768px) {
+  .banner .bannerImg {
+    height: 272px; 
+  }
+
+  .overlay-photo {
+    top: 220px; 
+    width: 200px; 
+    height: 200px; 
+    clip-path: ellipse(50% 50% at 50% 50%); 
+  }
+}

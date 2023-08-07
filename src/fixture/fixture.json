@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043590610800680/booki.png",
+      "title": "Booki - Intégration HTML & CSS",
+      "description": "L'entreprise a pour objectif de créer un site Internet où les utilisateurs pourront rechercher des hébergements et des activités dans la ville de leur choix. Ma mission consiste à intégrer l'interface du site en utilisant du code HTML et CSS, tout en respectant la maquette fournie.",
+      "constraints": [
+        "Intégration de l'interface du site en utilisant HTML et CSS",
+        "Respecter la maquette fournie pour l'apparence du site",
+        "Créer une interface utilisateur réactive et adaptée à différents appareils",
+        "Assurer la compatibilité multi-navigateurs du site",
+        "Optimiser les performances du site pour une expérience utilisateur fluide",
+        "Utiliser des bonnes pratiques de développement front-end",
+        "Travailler en collaboration avec l'équipe de conception et de développement",
+        "Respecter les délais fixés pour la livraison du projet"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Responsive Web Design",
+        "Compatibilité multi-navigateurs",
+        "Optimisation des performances",
+        "Maîtrise des bonnes pratiques de développement front-end",
+        "Travail d'équipe et communication",
+        "Gestion du temps et respect des délais"
+      ]
+    },
+    {
+      "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043636794269717/bluel.webp",
+      "title": "Sophie Bluel - Interface dynamique Javascript",
+      "description": "En tant que développeur front-end, j'ai été envoyé en renfort pour rejoindre une équipe travaillant sur la conception du site portfolio d'une architecte d'intérieur. Ma responsabilité est de développer la page de présentation des travaux de l'architecte en utilisant le code HTML fourni. En plus de cela, je suis chargé de créer la page de connexion de l'administrateur du site (le client) à partir de zéro, ainsi que de développer la modale permettant d'uploader de nouveaux médias également à partir de zéro.",
+      "constraints": [
+        "Compréhension des hooks UseState() et UseEffect() : J'ai rencontré des difficultés pour assimiler la syntaxe et le fonctionnement de ces hooks.",
+        "Responsive sur React : En raison d'un CSS dispersé dans le projet, j'ai dû localiser précisément mes composants afin d'obtenir un design responsive et esthétique.",
+        "Éviter les répétitions : Suite à l'évaluation, j'ai dû réécrire une partie du code pour éviter de régénérer des composants déjà existants."
+      ],
+      "skills": [
+        "Documentation sur les outils utilisés :",
+        "Documentation React",
+        "React-Router-dom",
+        "Compréhension et maîtrise de l'architecture des fichiers React",
+        "Utilisation d'un second IDE (IntelliJ IDEA)",
+        "Utilisation de Sass (Sass pur sans accolades ni points-virgules)."
+      ]
+    },
+    {
+      "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043590254268447/carducci.webp",
+      "title": "Nina Carducci - Débug et optimisation",
+      "description": "En tant que développeur freelance, les services d'optimisation SEO sont proposés à Nina Carducci pour son site. Une réponse favorable a été reçue pour effectuer une optimisation globale du site, en prenant en compte à la fois les performances et le référencement SEO. De plus, le référencement local sera mis en place en utilisant Schema.org, les metas seront ajoutées pour les réseaux sociaux, et les modifications nécessaires seront effectuées pour améliorer l'accessibilité du site.",
+      "constraints": [],
+      "skills": []
+    },
+    {
+      "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043589901955133/kasa.webp",
+      "title": "Kasa - Application web React",
+      "description": "En tant que développeur front-end freelance, j'ai été recruté par Kasa pour travailler sur le développement de leur nouvelle plateforme web. Mon objectif principal est de démarrer le projet React et de développer l'ensemble de l'application, y compris les composants React et les routes avec React Router.",
+      "constraints": [],
+      "skills": []
+    },
+    {
+      "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043636341297172/grimoire.webp",
+      "title": "Mon vieux grimoire - Backend NodeJs",
+      "description": "Kévin me contacte pour me proposer de collaborer avec lui en combinant nos compétences front-end et back-end sur un nouveau projet qui lui a été proposé. Le projet concerne la création d'un site de référencement et de notation de livres pour une petite chaîne de librairies. Ma mission principale sera de développer le backend, qui inclura les fonctionnalités d'inscription, de connexion, de déconnexion, d'ajout, de modifications et de suppression de livres, ainsi que la possibilité de noter les livres.",
+      "constraints": [],
+      "skills": []
+    }
+  ]
+}

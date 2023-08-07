@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import photoCenter from "../assets/images/contactPhoto.jpg";
+import photoPolaroid1 from "../assets/images/projectImage.jpeg";
+// import photoPolaroid2 from "../assets/images/polaroid.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,8 +14,17 @@ const NextSection = () => {
 
   return (
     <section className="next-section" style={{ backgroundColor: "#F4F1E9" }} data-aos="fade-up">
-      <div className="photo-container">
-        <img src={photoCenter} alt="contact" className="centered-photo" />
+      <div className="polaroid-container">
+        <div className="polaroid">
+          <img src={photoPolaroid1} alt="polaroid 1" className="polaroid img" />
+        </div>
+        
+      </div>
+      <div className="quote-container">
+        <p className="quote">
+          "A good web developer turns abstract ideas into interactive reality."
+        </p>
+        <p className="author">- Tim Berners-Lee</p>
       </div>
     </section>
   );
