@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import photoSkills from "../assets/images/photoSkills.jpg";
 import marketingWebImage from "../assets/images/photo2.jpg";
 import outilsLogicielsImage from "../assets/images/photoGraduation.jpg";
-import arrowIcon from "../assets/icon/iconFleche.png";
-import arrowLeft from "../assets/icon/iconFlecheGauche.png";
+// import arrowIcon from "../assets/icon/iconFleche.png";
+// import arrowLeft from "../assets/icon/iconFlecheGauche.png";
 
 const Skills = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -29,10 +29,15 @@ const Skills = () => {
     },
   ];
 
-  const handleSlideChange = (increment) => {
-    const newIndex = (slideIndex + increment + slides.length) % slides.length;
-    setSlideIndex(newIndex);
-  };
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      const newIndex = (slideIndex + 1) % slides.length;
+      setSlideIndex(newIndex);
+    }, 3000); 
+
+    return () => clearInterval(slideInterval);
+  }, [slideIndex]);
+
 
   return (
     <section className="skills-section">
@@ -48,30 +53,16 @@ const Skills = () => {
       </div>
       <div className="right-part">
         <h2 className="right-title">{slides[slideIndex].title}</h2>
-        <p className="description">
-          <ul>
-            {slides[slideIndex].description.split('\n').map((item, index) => (
-              item.trim() !== '' && <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </p>
-        <div className="arrow-container-skills">
-        {slideIndex > 0 && (
-          <img
-            src={arrowLeft}
-            alt="Left Arrow Icon Skills"
-            className="arrow-icon left-arrow-skills"
-            onClick={() => handleSlideChange(-1)}
-          />
-        )}
-        <img
-          src={arrowIcon}
-          alt="Right Arrow Icon Skills"
-          className="arrow-icon right-arro-skills"
-          onClick={() => handleSlideChange(1)}
-        />
-        <span className="counter">{`${slideIndex + 1}/${slides.length}`}</span>
-      </div>
+        <p className="description">{slides[slideIndex].description}</p>
+        <div className="dot-container">
+          {slides.map((slide, index) => (
+            <span
+              key={index}
+              className={`dot-skills ${index === slideIndex ? "active" : ""}`}
+              onClick={() => setSlideIndex(index)}
+            ></span>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -4,7 +4,8 @@
     align-items: center;
     background-color: #f4f1e9;
     padding: 80px;
-    height: 600px;
+    height: auto;
+    
 
   }
   
@@ -15,13 +16,36 @@
   .intro-content {
     max-width: 50%;
     text-align: justify;
+    .text2{
+      line-height: 2;
+      }
   }
   
-  .intro-title {
+  .intro-title-page-about {
     font-family: "Playfair Display", serif;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 60px;
   }
-  .text1{
-    line-height: 2;
+  .text2-page-about{
+    line-height: 1.2;
   }
+ 
+  .slide-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #000;
+  }
+  

@@ -19,7 +19,7 @@ const Outils = () => {
       images: [photo1, photo2, photo3, photo4],
     },
     {
-      title: "LANGAGE",
+      title: "LANGAGES",
       images: [photo5, photo6, photo7, photo8],
     },
   ];
