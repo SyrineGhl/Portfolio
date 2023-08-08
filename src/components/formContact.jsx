@@ -28,11 +28,11 @@ import emailjs from "@emailjs/browser";
     <form className="contact-form-page" ref={form} onSubmit={sendEmail}>
       <div className="form-group-page">
         <label htmlFor="email">EMAIL</label>
-        <input type="email" id="email" name="from_email" required />
+        <input type="email" id="email" name="from_email" autocomplete="off" required />
       </div>
       <div className="form-group-page">
         <label htmlFor="subject">OBJET</label>
-        <input type="text" id="subject" name="from_subject" required />
+        <input type="text" id="subject" name="from_subject" autocomplete="off"required />
       </div>
       <div className="form-group-page">
         <label htmlFor="message">MESSAGE</label>

@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
   }
@@ -45,15 +46,19 @@
   }
   
   @media (max-width: 768px) {
-    .projets-section,
-    .about-me-section {
-      height: 200px; 
-    }
+    .projets-section, .about-me-container {
+      height: 150px;
+    background-color: transparent; 
+    background-image: url("../assets/images/me.jpg"); 
+    background-size: cover;
+    
+  }
   
     .projets-item h1,
     .about-me-item h1 {
       font-size: 27px; 
       padding: 10px;
+      color: white;
     }
     
   }
