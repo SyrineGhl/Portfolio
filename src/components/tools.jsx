@@ -50,20 +50,6 @@ const Outils = () => {
           />
         ))}
       </div>
-      {/* <div className="arrow-container">
-        <img
-          src={arrowLeft}
-          alt="Left Arrow Icon"
-          className="arrow-icon-tools left-arrow"
-          onClick={() => handleSlideChange(-1)}
-        />
-        <img
-          src={arrowIcon}
-          alt="Right Arrow Icon"
-          className="arrow-icon-tools right-arrow"
-          onClick={() => handleSlideChange(1)}
-        />
-      </div> */}
     </section>
   );
 };

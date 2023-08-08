@@ -23,7 +23,7 @@ const IntroAbout = () => {
   return (
     <div className="intro-container">
       <div className="intro-image">
-        <img src={maPhoto} alt="My Photo" />
+        <img src={maPhoto} alt="it's me" />
       </div>
       <div className="intro-content">
         <h2 className="intro-title-page-about">HELLO&nbsp;IT'S ME!</h2>

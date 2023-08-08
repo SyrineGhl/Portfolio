@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import About from "../components/about";
 import Banner from "../components/banner";
-import ContactForm from "../components/contact";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import NextSection from "../components/nextSection";
