@@ -17,7 +17,6 @@ const AboutMe = () => {
     <section
       className="about-me-section"
       style={{
-        backgroundColor: isHovered ? "rgba(231, 224, 214, 1)" : "#f4f1e9",
         backgroundImage: isHovered
           ? `url(${aboutMeBackground})`
           : "none",
@@ -29,7 +28,6 @@ const AboutMe = () => {
         overflow: "hidden",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        filter: isHovered ? "opacity(60%)" : "none", 
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

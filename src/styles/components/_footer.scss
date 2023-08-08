@@ -43,4 +43,23 @@
     margin-bottom: 10px; 
   }
   
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 21px;
+    height: 130px;
+    }
   
+    .imagesContainer {
+      justify-content: space-around; 
+    }
+  
+    .footer img {
+      width: 12%; 
+      max-width: 30px; 
+      margin: 5px; 
+    }
+  
+    .textFooter {
+      font-size: 14px; 
+    }
+  }

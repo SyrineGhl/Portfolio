@@ -1,53 +1,82 @@
 .intro-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f4f1e9;
-    padding: 80px;
-    height: auto;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f1e9;
+  padding: 80px;
+  height: auto;
+}
 
+.intro-image img {
+  width: 65%;
+}
+
+.intro-content {
+  max-width: 50%;
+  text-align: justify;
+  line-height: 1;
+
+}
+.text3-page-about{
+  line-height: 2;
+}
+.intro-title-page-about {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.text2-page-about {
+  line-height: 1.2;
+}
+
+.slide-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #000;
+}
+@media screen and (max-width: 768px) {
+  .intro-container {
+    padding: 20px;
+    display: block;
   }
-  
+
   .intro-image img {
-    width: 65%;
+    max-width: 100%;
   }
-  
+
   .intro-content {
-    max-width: 50%;
-    text-align: justify;
-    .text2{
-      line-height: 2;
-      }
+    text-align: center;
+    margin-top: 10px;
   }
-  
+
   .intro-title-page-about {
-    font-family: "Playfair Display", serif;
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-  .text2-page-about{
-    line-height: 1.2;
+
+  .text2-page-about,
+  .text3-page-about {
+    line-height: 1.6;
   }
- 
-  .slide-buttons {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 250px;
-  
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #000;
-  }
-  
+}

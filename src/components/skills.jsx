@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import photoSkills from "../assets/images/photoSkills.jpg";
 import marketingWebImage from "../assets/images/photo2.jpg";
 import outilsLogicielsImage from "../assets/images/photoGraduation.jpg";
-// import arrowIcon from "../assets/icon/iconFleche.png";
-// import arrowLeft from "../assets/icon/iconFlecheGauche.png";
+import rightArrowIcon from "../assets/icon/flecheDroite.png";
+import leftArrowIcon from "../assets/icon/flecheGauche.png";
 
 const Skills = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -29,15 +29,13 @@ const Skills = () => {
     },
   ];
 
-  useEffect(() => {
-    const slideInterval = setInterval(() => {
-      const newIndex = (slideIndex + 1) % slides.length;
-      setSlideIndex(newIndex);
-    }, 3000); 
+  const goToPreviousSlide = () => {
+    setSlideIndex((slideIndex - 1 + slides.length) % slides.length);
+  };
 
-    return () => clearInterval(slideInterval);
-  }, [slideIndex]);
-
+  const goToNextSlide = () => {
+    setSlideIndex((slideIndex + 1) % slides.length);
+  };
 
   return (
     <section className="skills-section">
@@ -54,8 +52,22 @@ const Skills = () => {
       <div className="right-part">
         <h2 className="right-title">{slides[slideIndex].title}</h2>
         <p className="description">{slides[slideIndex].description}</p>
+        <div className="arrow-container">
+          <img
+            src={leftArrowIcon}
+            alt="Previous Slide"
+            className="arrow-icon-skills"
+            onClick={goToPreviousSlide}
+          />
+          <img
+            src={rightArrowIcon}
+            alt="Next Slide"
+            className="arrow-icon-skills"
+            onClick={goToNextSlide}
+          />
+        </div>
         <div className="dot-container">
-          {slides.map((slide, index) => (
+          {slides.map((_, index) => (
             <span
               key={index}
               className={`dot-skills ${index === slideIndex ? "active" : ""}`}

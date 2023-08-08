@@ -71,29 +71,6 @@
     text-align: justify;
 }
 
-.arrow-container-skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-// .arrow-icon {
-//   width: 28px;
-//   height: 22px;
-//   margin-right: 10px;
-//   transition: transform 0.3s ease-in-out;
-// }
-
-// .arrow-icon:hover {
-//   transform: scale(2.2);
-// }
-
-// .counter {
-//   font-size: 16px;
-//   font-weight: bold;
-// }
-
 .description {
   text-align: justify;
   line-height: 1.8;
@@ -102,6 +79,12 @@
   margin-left: 200px;
   margin-right: 40px;
   font-size: 12;
+}
+.arrow-icon-skills {
+  height: 20px; 
+  cursor: pointer;
+  margin: 0 36px;
+  margin-top: 445px;
 }
 .dot-skills {
   width: 12px;

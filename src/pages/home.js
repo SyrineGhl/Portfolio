@@ -27,7 +27,7 @@ export default function Home() {
         <Banner data-aos="fade-up" />
         <About data-aos="fade-up" />
         <SectionProject data-aos="fade-up"/>
-        <div style={{ display: "flex" }}>
+        <div className="project-about" style={{ display: "flex" }}>
         <Projets data-aos="fade-up" />
         <AboutMe data-aos="fade-up"/>
         </div>

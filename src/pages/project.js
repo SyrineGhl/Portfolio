@@ -3,6 +3,8 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import fixtureData from "../fixture/fixture.json";
 import SectionProject from "../components/sectionProject";
+import rightArrowIcon from "../assets/icon/flecheDroite.png";
+import leftArrowIcon from "../assets/icon/flecheGauche.png";
 
 const Project = () => {
   const { projects } = fixtureData;
@@ -26,14 +28,12 @@ const Project = () => {
 
       <section className="next-section">
         <div className="slide-container">
-          <div
-            className="slide"
-            style={{
-              transform: `translateY(-${currentSlide * (100 / projects.length)}%)`,
-            }}
-          >
+          <div className="slide">
             {projects.map((project, index) => (
-              <div key={index} className="slide-item">
+              <div
+                key={index}
+                className={`slide-item ${index === currentSlide ? "active" : ""}`}
+              >
                 <div className="slide-wrapper">
                   <img
                     src={project.image}
@@ -43,17 +43,7 @@ const Project = () => {
                   <div className="slide-text">
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
-
-                    <div className="project-skills">
-                      <h3>Compétences Développées</h3>
-                      <ul>
-                        {project.skills.map((skill, skillIndex) => (
-                          <li key={skillIndex}>{skill}</li>
-                        ))}
-                      </ul>
-                    </div>
-
-                  
+                   
                     <div className="project-constraints">
                       <h3>Problèmes Rencontrés</h3>
                       <ul>
@@ -62,6 +52,18 @@ const Project = () => {
                         ))}
                       </ul>
                     </div>
+
+                    <div className="project-skills">
+                      <h3>Compétences Développées</h3>
+                      <ul>
+                        {project.skills.map((skill, skillIndex) => (
+                          <li key={skillIndex}>{skill}</li>
+                        ))}
+                      </ul>
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <button className="slide-button">Code Github</button>
+                  </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -69,18 +71,28 @@ const Project = () => {
           </div>
         </div>
         <div className="slide-arrows">
-          <img
-            src={require("../assets/icon/iconflecheBottom.png").default}
-            alt="Flèche haut"
-            className="arrow-icon"
-            onClick={prevSlide}
-          />
-          <img
-            src={require("../assets/icon/iconflecheTop.png").default}
-            alt="Flèche bas"
-            className="arrow-icon"
-            onClick={nextSlide}
-          />
+        <img
+  src={leftArrowIcon}
+  alt="Flèche droite"
+  className="arrow-icon-project"
+  onClick={nextSlide}
+/>
+<img
+  src={rightArrowIcon}
+  alt="Flèche gauche"
+  className="arrow-icon-project"
+  onClick={prevSlide}
+/>
+
+        </div>
+        <div className="slide-dots">
+          {projects.map((_, index) => (
+            <div
+              key={index}
+              className={`slide-dot ${index === currentSlide ? "active-dot" : ""}`}
+              onClick={() => setCurrentSlide(index)}
+            />
+          ))}
         </div>
       </section>
       <Footer />

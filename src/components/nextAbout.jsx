@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import maPhoto from "../assets/images/meAbout.jpg";
+import rightArrowIcon from "../assets/icon/flecheDroite.png";
+import leftArrowIcon from "../assets/icon/flecheGauche.png";
 
 const IntroAbout = () => {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const nextSlide = () => {
-    if (slideIndex < 3) {
+    if (slideIndex === 3) {
+      setSlideIndex(1);
+    } else {
       setSlideIndex(slideIndex + 1);
     }
   };
@@ -22,7 +26,7 @@ const IntroAbout = () => {
         <img src={maPhoto} alt="My Photo" />
       </div>
       <div className="intro-content">
-        <h2 className="intro-title-page-about">HELLO ITS ME !</h2>
+        <h2 className="intro-title-page-about">HELLO&nbsp;IT'S ME!</h2>
         {slideIndex === 1 && (
           <p className="text1-page-about">
             Je suis Syrine, une développeuse web passionnée et dynamique, formée
@@ -64,6 +68,12 @@ const IntroAbout = () => {
           </p>
         )}
         <div className="slide-buttons">
+          <img
+            src={leftArrowIcon}
+            alt="Left Arrow"
+            className="arrow-icon"
+            onClick={prevSlide}
+          />
           <span
             className={`dot ${slideIndex === 1 ? "active" : ""}`}
             onClick={() => setSlideIndex(1)}
@@ -76,6 +86,12 @@ const IntroAbout = () => {
             className={`dot ${slideIndex === 3 ? "active" : ""}`}
             onClick={() => setSlideIndex(3)}
           ></span>
+          <img
+            src={rightArrowIcon}
+            alt="Right Arrow"
+            className="arrow-icon"
+            onClick={nextSlide}
+          />
         </div>
       </div>
     </div>

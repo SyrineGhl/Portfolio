@@ -32,8 +32,8 @@ const Contact = () => {
               <label htmlFor="message">MESSAGE</label>
               <textarea id="message" name="message" required></textarea>
             </div>
-            <div className="form-group-page">
-              <button type="submit">ENVOYER</button>
+            <div className="form-group-button">
+              <button className="button-contact" type="submit">ENVOYER</button>
             </div>
           </form>
         </div>

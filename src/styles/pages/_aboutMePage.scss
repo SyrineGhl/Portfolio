@@ -15,8 +15,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #F4F1E9; /* Couleur de fond noire */
-  color: black; /* Couleur du texte en blanc */
+  background-color: #F4F1E9; 
+  color: black; 
   padding: 40px;
 }
 
@@ -65,9 +65,9 @@
   position: absolute;
   width: 309px;
   height: 363px;
-  transform: scale(1, 1) translate(0px, 0px) rotate(16deg);
-  left: 711px;
-  top: 151px;
+  // transform: scale(1, 1) translate(0px, 0px) rotate(16deg);
+  // left: 711px;
+  // top: 151px;
 }
 
 .polaroid-image {
