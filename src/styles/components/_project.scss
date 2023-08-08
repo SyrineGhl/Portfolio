@@ -1,9 +1,6 @@
 
 
 .projets-section {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   background-color: #f4f1e9;
   border: none;
   border-radius: inherit;
@@ -26,8 +23,8 @@
 .proj-item h1 {
   font-size: 99px;
   font-family: "Playfair Display Regular", serif;
-  padding: 20px;
-  margin: 0;
+  padding-top: 123px;
+  
   color: black;
 }
 
@@ -50,15 +47,15 @@
   .proj-container {
     height: 150px; 
     padding: 60px;
-    background-image: url("https://cdn.discordapp.com/attachments/1134740954692210751/1138568844517052487/200401118e2b97bab0086156f09da6d1.jpg"); 
+    background-image: url("https://cdn.discordapp.com/attachments/1134740954692210751/1138593078404460645/200401118e2b97bab0086156f09da6d1.jpg"); 
     background-size: cover;
   }
 
   .proj-item h1 {
-    font-size: 28px; 
-    text-align: center; 
-    padding: 10px;
-    color:white;
+    font-size: 45px;
+    text-align: center;
+    /* padding: 10px; */
+    color: #fff;
   }
 
   .projets-section .proj-container {

@@ -19,7 +19,7 @@ const Skills = () => {
       title: "Compétences Complémentaires",
       image: marketingWebImage,
       description:
-        "Marketing Web et SEO : Expérience dans la mise en œuvre de campagnes marketing web, visant à promouvoir efficacement les sites sur les moteurs de recherche et à optimiser le référencement naturel pour améliorer leur visibilité.\n\nCapacité à créer des contenus SEO de qualité, contribuant ainsi à accroître le classement des sites web sur les moteurs de recherche et à attirer davantage de trafic organique.\n\n Maîtrise des Outils et Logiciels.Connaissance approfondie des logiciels Altea, Ères, Word, Excel, Power Point, Access, Outlook, Ciel Compta, Adobe CS, Shopify, 1&1, OVH, et Wordpress.",
+        "Marketing Web et SEO : Expérience dans la mise en œuvre de campagnes marketing web, visant à promouvoir efficacement les sites sur les moteurs de recherche et à optimiser le référencement naturel pour améliorer leur visibilité.\n\nCapacité à créer des contenus SEO de qualité, contribuant ainsi à accroître le classement des sites web sur les moteurs de recherche et à attirer davantage de trafic organique.\n\n Maîtrise des Outils et Logiciels.\n\n Connaissance approfondie des logiciels Altea, Ères, Word, Excel, Power Point, Access, Outlook, Ciel Compta, Adobe CS, Shopify, 1&1, OVH, et Wordpress.",
     },
     {
       title: "Diplôme et Formations",
@@ -36,6 +36,7 @@ const Skills = () => {
   const goToNextSlide = () => {
     setSlideIndex((slideIndex + 1) % slides.length);
   };
+  
 
   return (
     <section className="skills-section">

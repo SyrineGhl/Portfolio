@@ -26,7 +26,7 @@ const Project = () => {
       </section>
       <SectionProject />
 
-      <section className="next-section">
+      <section className="next-section-project-page">
         <div className="slide-container">
           <div className="slide">
             {projects.map((project, index) => (
@@ -74,13 +74,13 @@ const Project = () => {
         <img
   src={leftArrowIcon}
   alt="Flèche droite"
-  className="arrow-icon-project"
+  className="arrow-icon-project-left"
   onClick={nextSlide}
 />
 <img
   src={rightArrowIcon}
   alt="Flèche gauche"
-  className="arrow-icon-project"
+  className="arrow-icon-project-right"
   onClick={prevSlide}
 />
 

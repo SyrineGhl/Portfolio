@@ -1,6 +1,10 @@
 .project-section {
   background-color: #F4F1E9;
   height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-title {
@@ -10,10 +14,8 @@
   padding: 93px;
 }
 
-.next-section {
-  width: 100%;
+.next-section-project-page{
   background-color: #f4f1e9;
-  height: auto;
 }
 
 .slide-container {
@@ -63,28 +65,30 @@
   margin-bottom: 170px;
 }
 
-// .slide-item .slide-wrapper {
-//   display: flex;
-// }
 
-.arrow-icon-project {
+.arrow-icon-project-right {
 
   height: 40px;
   cursor: pointer;
   margin-right: 6px;
   margin-left: 6px;
 }
-
+.arrow-icon-project-left{
+  height: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+  margin-left: 6px;
+}
 .arrow-icon:hover {
   transform: scale(1.2);
 }
 
 .slide-arrows {
-  position: absolute;
+  // position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  margin-bottom: 442px;
+  bottom: 40px;
 }
 
 .slide-item {
@@ -111,6 +115,7 @@
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
+  margin: 0 5px;
 }
 
 .active-dot {
