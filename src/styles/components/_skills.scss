@@ -98,7 +98,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 450px;
+  margin-top: 521px;
+
 }
 .dot-skills.active {
   background-color: #333;
@@ -109,6 +110,9 @@
     font-size: 20px;
     margin-top: 43px;
     text-align: center;
+  }
+  .arrow-icon-skills{
+    margin: 0;
   }
 
   .center-photo {
@@ -125,8 +129,8 @@
 
   .description {
     font-size: 8px;
-    position: absolute;
-    margin-left: 90px;
+    
+    margin-left: 58px;
   }
 
   .dot-skills {

@@ -82,7 +82,15 @@
 
 @media screen and (max-width: 768px) {
   .about-me-title {
-    font-size: 50px;
+    font-size: 41px;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .next-section-about {
+    flex-direction: column; /* Afficher les éléments en colonne */
+    align-items: center; /* Centrer horizontalement les éléments */
+    padding: 40px;
   }
 
   .my-photo {
@@ -93,6 +101,8 @@
 
   .description-about {
     margin: 10px;
+    text-align: center; /* Centrer le texte */
+    position: absolute; /* Revenir à la position normale */
   }
 
   .ma-autre-photo-container,
@@ -112,6 +122,7 @@
   .intro-title-page-about h2 {
     font-size: 30px;
   }
+
   .intro-image {
     width: 50%;
   }

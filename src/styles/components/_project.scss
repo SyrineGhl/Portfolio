@@ -1,9 +1,9 @@
 
 
 .projets-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   background-color: #f4f1e9;
   border: none;
   border-radius: inherit;
@@ -32,9 +32,9 @@
 }
 
 .projets-section .proj-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   height: 100%;
   position: relative;
   z-index: 1;
@@ -42,23 +42,27 @@
 
 .proj-link {
   text-decoration: none;
-  color: inherit;
+  color: red;
 }
 
 
-@media (max-width: 768px) {
-  .projets-section {
-    height: 200px; 
-    padding: 20px;
+@media screen and (max-width: 768px) {
+  .proj-container {
+    height: 150px; 
+    padding: 60px;
+    background-image: url("https://cdn.discordapp.com/attachments/1134740954692210751/1138568844517052487/200401118e2b97bab0086156f09da6d1.jpg"); 
+    background-size: cover;
   }
 
   .proj-item h1 {
     font-size: 28px; 
     text-align: center; 
     padding: 10px;
+    color:white;
   }
 
   .projets-section .proj-container {
+    display: block;
     flex-direction: column; 
     align-items: center; 
   }
