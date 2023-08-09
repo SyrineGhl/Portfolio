@@ -7,7 +7,7 @@ const About = () => {
       <h3 className="about-title">“Meet the Mind Behind the Code”</h3>
       <h4>BASED IN FRENCH RIVIERA</h4>
       <p>
-        Je suis Syrine, une développeuse web frontend passionnée formée chez OpenClassrooms. Ma magie réside dans la
+        Je suis Syrine, une développeuse web frontend passionnée. Ma magie réside dans la
         création d'interfaces interactives et esthétiquement captivantes en utilisant HTML, CSS, JavaScript, React et
         Sass. </p><p>J’ai quelques notions avec NodeJs, MongoDB et WordPress pour des projets complets. Mon approche agile et
         la gestion des versions avec Git assurent une collaboration harmonieuse.</p> <p> Découvrez mon portfolio dédié à offrir
