@@ -11,12 +11,12 @@ const Project = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % projects.length);
+    setCurrentSlide((prevSlide) => (prevSlide - 1) % projects.length);
   };
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prevSlide) => (prevSlide - 1 + projects.length) % projects.length
+      (prevSlide) => (prevSlide + 1 + projects.length) % projects.length
     );
   };
 
