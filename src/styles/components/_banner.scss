@@ -17,7 +17,7 @@
 
 .overlay-photo {
   position: absolute;
-  top: 337px;
+  top: 215px;
   left: 50%;
   transform: translateX(-50%);
   width: 300px;
@@ -40,9 +40,9 @@
   }
 
   .overlay-photo {
-    top: 220px; 
-    width: 200px; 
-    height: 200px; 
-    clip-path: ellipse(50% 50% at 50% 50%); 
+    top: 123px;
+    width: 50%;
+    height: 200px;
+    clip-path: ellipse(41% 50% at 50% 50%); 
   }
 }

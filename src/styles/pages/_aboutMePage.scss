@@ -7,7 +7,7 @@
     font-family: "Lato", sans-serif;
     font-size: 150px;
     text-align: center;
-    padding: 48px;
+    padding: 127px;
 }
 
 
@@ -79,11 +79,12 @@
 
 @media screen and (max-width: 768px) {
   .about-me-title {
-    font-size: 41px;
-    padding: 76px;
+    font-size: 30px;
+    padding: 109px;
+    
   }
   .about-me-section{
-    height: auto;
+    height: 200px;
   }
 
   .next-section-about {
@@ -107,7 +108,7 @@
 
   
   .intro-title-page-about {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .intro-title-page-about h2 {
