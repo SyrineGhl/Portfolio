@@ -1,4 +1,7 @@
 @import"./app.scss";
+@import 'aos/dist/aos.css';
+
+//COMPOSANTS 
 @import "./components/header";
 @import"./components/footer";
 @import "./components/banner";
@@ -8,13 +11,13 @@
 @import"./components/tools";
 @import"./components/nextSection";
 @import"./components/contact";
-@import 'aos/dist/aos.css';
-@import"./pages/projects";
-@import"./components/sectionProject";
-@import"./pages/aboutMePage";
-@import"./components/footerProject";
 @import"./components/sectionAboutMe";
-@import"./components/nextAbout";
+@import"./components/sectionProject";
 @import"./components/aboutPart2";
+@import"./components/nextAbout";
+
+//PAGES
+@import"./pages/projects";
+@import"./pages/aboutMePage";
 @import"./pages/contact";
 
