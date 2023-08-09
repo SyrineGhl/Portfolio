@@ -32,10 +32,10 @@ const Outils = () => {
     const interval = setInterval(() => {
       handleSlideChange(1); 
     }, 2000); 
-
- 
-    return () => clearInterval(interval);
-  }, [slideIndex]);
+    
+    // eslint-disable-next-line 
+  return () => clearInterval(interval);
+}, [slideIndex]);
 
   return (
     <section className="outils-section">

@@ -22,9 +22,9 @@ const IntroAbout = () => {
 
   return (
     <div className="intro-container">
-      <div className="intro-image">
-        <img src={maPhoto} alt="it's me" />
-      </div>
+      
+        <img className="about-page-me-photo" src={maPhoto} alt="it's me" />
+      
       <div className="intro-content">
         <h2 className="intro-title-page-about">HELLO&nbsp;IT'S ME!</h2>
         {slideIndex === 1 && (

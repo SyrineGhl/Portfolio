@@ -12,7 +12,7 @@
 }
 
 .intro-content {
-  max-width: 50%;
+ margin-left: 10px;
   text-align: justify;
   line-height: 1;
 
@@ -57,8 +57,13 @@
 }
 @media screen and (max-width: 768px) {
   .intro-container {
-    padding: 20px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
   }
 
   .intro-image img {
@@ -66,23 +71,24 @@
   }
 
   .intro-content {
-    text-align: center;
-    margin-top: 10px;
+ 
+    margin: 20px auto;
+    
   }
 
   .intro-title-page-about {
     font-size: 30px;
     margin-bottom: 20px;
-    /* margin-left: 74px; */
     text-align: center;
     display: flex;
     padding: 55px;
   }
-.text1-page-about{
-  margin-left: 30px;
-}
+
   .text2-page-about,
   .text3-page-about {
     line-height: 1.6;
+  }
+  .slide-buttons{
+    margin-left: 75px;
   }
 }

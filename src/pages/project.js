@@ -15,7 +15,9 @@ const Project = () => {
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + projects.length) % projects.length);
+    setCurrentSlide(
+      (prevSlide) => (prevSlide - 1 + projects.length) % projects.length
+    );
   };
 
   return (
@@ -32,7 +34,9 @@ const Project = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className={`slide-item ${index === currentSlide ? "active" : ""}`}
+                className={`slide-item ${
+                  index === currentSlide ? "active" : ""
+                }`}
               >
                 <div className="slide-wrapper">
                   <img
@@ -43,13 +47,15 @@ const Project = () => {
                   <div className="slide-text">
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
-                   
+
                     <div className="project-constraints">
                       <h3>Problèmes Rencontrés</h3>
                       <ul>
-                        {project.constraints.map((constraint, constraintIndex) => (
-                          <li key={constraintIndex}>{constraint}</li>
-                        ))}
+                        {project.constraints.map(
+                          (constraint, constraintIndex) => (
+                            <li key={constraintIndex}>{constraint}</li>
+                          )
+                        )}
                       </ul>
                     </div>
 
@@ -60,9 +66,13 @@ const Project = () => {
                           <li key={skillIndex}>{skill}</li>
                         ))}
                       </ul>
-                      <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <button className="slide-button">Code Github</button>
-                  </a>
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="slide-button">Code Github</button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -71,28 +81,30 @@ const Project = () => {
           </div>
         </div>
         <div className="slide-arrows">
-        <img
-  src={leftArrowIcon}
-  alt="Flèche droite"
-  className="arrow-icon-project-left"
-  onClick={nextSlide}
-/>
-<img
-  src={rightArrowIcon}
-  alt="Flèche gauche"
-  className="arrow-icon-project-right"
-  onClick={prevSlide}
-/>
+          <img
+            src={leftArrowIcon}
+            alt="Flèche droite"
+            className="arrow-icon-project-left"
+            onClick={nextSlide}
+          />
 
-        </div>
-        <div className="slide-dots">
-          {projects.map((_, index) => (
-            <div
-              key={index}
-              className={`slide-dot ${index === currentSlide ? "active-dot" : ""}`}
-              onClick={() => setCurrentSlide(index)}
-            />
-          ))}
+          <div className="slide-dots">
+            {projects.map((_, index) => (
+              <div
+                key={index}
+                className={`slide-dot ${
+                  index === currentSlide ? "active-dot" : ""
+                }`}
+                onClick={() => setCurrentSlide(index)}
+              />
+            ))}
+          </div>
+          <img
+            src={rightArrowIcon}
+            alt="Flèche gauche"
+            className="arrow-icon-project-right"
+            onClick={prevSlide}
+          />
         </div>
       </section>
       <Footer />
