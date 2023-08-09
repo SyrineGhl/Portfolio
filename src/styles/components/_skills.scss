@@ -82,9 +82,9 @@
 }
 
 .arrow-icon-skills {
-  height: 20px; 
+  height: 20px;
   cursor: pointer;
-  margin: 0 36px;
+  margin: -19px 26px;
   margin-top: 445px;
 }
 .dot-skills {
@@ -99,22 +99,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 447px;
 
 }
 .dot-skills.active {
   background-color: #333;
 }
-
+// .arrow-dot-container {
+//   display: flex;
+//   align-items: center;
+//   margin-top: 20px;
+// }
 @media (max-width: 768px) {
   .right-title {
     font-size: 20px;
-    margin-top: 43px;
     text-align: center;
   }
-  .arrow-icon-skills{
-    margin: 0;
-  }
+ 
 
   .center-photo {
     width: 70vw;

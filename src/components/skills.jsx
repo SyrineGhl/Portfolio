@@ -53,7 +53,8 @@ const Skills = () => {
       <div className="right-part">
         <h2 className="right-title">{slides[slideIndex].title}</h2>
         <p className="description">{slides[slideIndex].description}</p>
-        <div className="arrow-container">
+       
+        <div className="arrow-dot-container">
           <img
             src={leftArrowIcon}
             alt="Previous Slide"
@@ -66,17 +67,17 @@ const Skills = () => {
             className="arrow-icon-skills"
             onClick={goToNextSlide}
           />
-        </div>
         <div className="dot-container">
           {slides.map((_, index) => (
             <span
-              key={index}
-              className={`dot-skills ${index === slideIndex ? "active" : ""}`}
-              onClick={() => setSlideIndex(index)}
+            key={index}
+            className={`dot-skills ${index === slideIndex ? "active" : ""}`}
+            onClick={() => setSlideIndex(index)}
             ></span>
-          ))}
+            ))}
         </div>
       </div>
+            </div>
     </section>
   );
 };
