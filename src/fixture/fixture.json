@@ -5,25 +5,15 @@
       "description": "L'entreprise a pour objectif de créer un site Internet où les utilisateurs pourront rechercher des hébergements et des activités dans la ville de leur choix. Ma mission consiste à intégrer l'interface du site en utilisant du code HTML et CSS, tout en respectant la maquette fournie.",
       "link": "https://github.com/SyrineGhl/booki.git",
       "constraints": [
-        "Intégration de l'interface du site en utilisant HTML et CSS",
-        "Respecter la maquette fournie pour l'apparence du site",
-        "Créer une interface utilisateur réactive et adaptée à différents appareils",
-        "Assurer la compatibilité multi-navigateurs du site",
-        "Optimiser les performances du site pour une expérience utilisateur fluide",
-        "Utiliser des bonnes pratiques de développement front-end",
-        "Travailler en collaboration avec l'équipe de conception et de développement",
-        "Respecter les délais fixés pour la livraison du projet"
+        "Utilisation du Git",
+        "Interface responsive Tablette et Mobile"
       ],
       "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043590610800680/booki.png",
       "skills": [
-        "HTML",
-        "CSS",
-        "Responsive Web Design",
-        "Compatibilité multi-navigateurs",
-        "Optimisation des performances",
-        "Maîtrise des bonnes pratiques de développement front-end",
-        "Travail d'équipe et communication",
-        "Gestion du temps et respect des délais"
+        "Implémenter une interface responsive avec HTML et CSS",
+        "Versionner son projet avec Git et Github",
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "Installer un environnement de développement front-end"
       ]
     },
     {
@@ -31,18 +21,13 @@
       "description": "En tant que développeur front-end, j'ai été envoyé en renfort pour rejoindre une équipe travaillant sur la conception du site portfolio d'une architecte d'intérieur. Ma responsabilité est de développer la page de présentation des travaux de l'architecte en utilisant le code HTML fourni. En plus de cela, je suis chargé de créer la page de connexion de l'administrateur du site (le client) à partir de zéro, ainsi que de développer la modale permettant d'uploader de nouveaux médias également à partir de zéro.",
       "link": "https://github.com/SyrineGhl/P3.git",
       "constraints": [
-        "Compréhension des hooks UseState() et UseEffect() : J'ai rencontré des difficultés pour assimiler la syntaxe et le fonctionnement de ces hooks.",
-        "Responsive sur React : En raison d'un CSS dispersé dans le projet, j'ai dû localiser précisément mes composants afin d'obtenir un design responsive et esthétique.",
-        "Éviter les répétitions : Suite à l'évaluation, j'ai dû réécrire une partie du code pour éviter de régénérer des composants déjà existants."
+        "Compréhension des hooks UseState() et UseEffect() : J'ai rencontré des difficultés pour assimiler la syntaxe et le fonctionnement de ces hooks."
       ],
       "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043636794269717/bluel.webp",
       "skills": [
-        "Documentation sur les outils utilisés :",
-        "Documentation React",
-        "React-Router-dom",
-        "Compréhension et maîtrise de l'architecture des fichiers React",
-        "Utilisation d'un second IDE (IntelliJ IDEA)",
-        "Utilisation de Sass (Sass pur sans accolades ni points-virgules)."
+        "Manipuler les éléments du DOM avec JavaScript",
+        "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+        "Gérer les événements utilisateurs avec JavaScript"
       ]
     },
     {
@@ -70,19 +55,18 @@
       "title": "Kasa - Application web React",
       "description": "En tant que développeur front-end freelance, j'ai été recruté par Kasa pour travailler sur le développement de leur nouvelle plateforme web. Mon objectif principal est de démarrer le projet React et de développer l'ensemble de l'application, y compris les composants React et les routes avec React Router.",
       "constraints": [ "Mise à jour d'un ancien site existant avec de nouvelles fonctionnalités",
-      "Respect strict des maquettes Figma fournies pour l'aspect visuel",
       "Intégration de données à partir d'un fichier JSON simulant une API",
       "Gestion de la réactivité pour une expérience utilisateur optimale sur tous les appareils",
       "Manipulation de composants React pour créer une interface interactive",
       "Travail selon les directives et exigences fournies par Kasa",
       "Optimisation des performances pour garantir une expérience utilisateur fluide"],
-      "skills": [ "Maîtrise avancée de React et React Router",
+      "skills": [ "Initialiser une application avec Create React App",
       "Intégration et manipulation de données JSON",
-      "Conception d'interfaces web réactives avec CSS/SCSS",
+      "Développer une interface web avec Sass",
       "Développement de composants réutilisables en React",
-      "Gestion de l'optimisation des performances",
-      "Collaboration en suivant les directives et les exigences d'un client",
-      "Adaptabilité aux changements et aux défis du développement"],
+      "Mettre en œuvre des animations CSS",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React",
+      "Configurer la navigation entre les pages de l'application avec React Router"],
       "image": "https://cdn.discordapp.com/attachments/1134740954692210751/1138043589901955133/kasa.webp",
       "link": "https://github.com/SyrineGhl/P6.git"
     },
